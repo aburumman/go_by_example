@@ -16,5 +16,11 @@ func main(){
 	if err != nil {
 		fmt.Println(err)
 	}
+	xbool := false
+	//some_int := int64(678)
+	some_int := int64(678)
+	xb := strconv.FormatBool(xbool)
+	xy := strconv.FormatInt(some_int, 10)
 	fmt.Println(i, b, x, u, q)
+	fmt.Println(xb, xy)
 }
